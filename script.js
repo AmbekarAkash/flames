@@ -34,10 +34,3 @@ function getFlamesResult(count) {
         index = (index + count - 1) % flames.length;
         flames.splice(index, 1);
     }
-
-    return flames[0];
-}
-
-function displayResult(message) {
-    document.getElementById('result').textContent = message;
-}
